@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 195px;
+    height: 37px;
+}
+
+
+.w-1140 {
+    width: 1140px;
+    margin: auto;
+}
+
+.w-250{
+    width: 250px;
+}
+
+/* imag */
+.slider-img {
+    width: 1320px;
+    height: 523px;
+}
+
+.font-karla-700 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-weight: 700;
+}
+
+.inter-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.allura-text {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brown {
+    color: #50371D;
+}
+
+.gray2{
+    color: #8B8B8B;
+}
+
+.bg-gray{
+    background-color:#F2F2F2;
+}
+
+
+/* font size */
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-27 {
+    font-size: 27px;
+}
+
+.fs-80 {
+    font-size: 80px;
+}
+
+/* padding */
+.pt-140 {
+    padding-top: 140px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.gray {
+    color: #8B8B8B;
+    ;
+}
+
+.ms-64 {
+    margin-left: 64px;
+}
+
+.ps-440{
+    padding-left: 440px;
+}
+
+.light-brown {
+    color: #DFA259;
+}
+
+
+
+.li {
+    list-style: none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.btn-sub {
+    position: absolute;
+    left: 146px;
+    top: 23px;
+    background-color: white;
+}
+
+.loginbox {
+    padding: 15px;
+    width: 70%;
+    margin-bottom: 12px;
+    border: 1px solid #8B8B8B;
+    font-size: 10px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.loginbtn {
+    padding: 5px;
+    width: 70%;
+    margin-bottom: 12px;
+    border: 1px solid #DFA259;
+    font-size: 10px;
+    background-color: white;
+    color: #DFA259;
+}
+
+div ul li,
+div ul a {
+    list-style: none;
+    text-decoration: none;
+    color: #8B8B8B;
+}
+
+nav div li,
+nav div a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+nav div li :hover,
+div ul a:hover {
+    color: #dfb585;
+}
+
+footer div a:hover {
+    color: #f2890e;
+    ;
+}
+
+.float-r {
+    float: right;
+}
+
+.black {
+    color: #000000;
+}
+
+footer div ul li,
+footer div a {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+
+/* hover */
+.sm {
+    background-size: 270px;
+    height: 176px;
+    background-position: center;
+
+    overflow: hidden;
+}
+
+.block {
+    position: absolute;
+    left: 47px;
+    top: 185px;
+    width: 237px;
+    transition: all 2s;
+}
+
+
+
+.sm:hover .block,
+.sm:hover .block2 {
+    display: block;
+    z-index: 999;
+    transform: translatey(-165px);
+}
+
+.submenu {
+    position: relative;
+
+}
+
+.box {
+    display: none;
+    position: absolute;
+    top: 29px;
+    width: 224px;
+    height: 288px;
+    z-index: 999;
+    background-color: #0000008e;
+}
+
+.submenu:hover .box {
+    display: block;
+}
+
+header nav div ul li ul li,
+nav ul li ul li a {
+    margin-top: 10px;
+    color: white;
+
+}
+
+.abox {
+    position: relative;
+    top: 69px;
+    font-size: 112px;
+    left: 160px;
+    width: 575px;
+    height: 180px;
+    opacity: .5;
+}
+
+.myabox {
+    position: relative;
+    top: 69px;
+    font-size: 112px;
+    left: 160px;
+    width: 765px;
+    height: 180px;
+    opacity: .5;
+}
+
+.orderbox {
+    position: relative;
+    top: 71px;
+    font-size: 106px;
+    left: 140px;
+    width: 975px;
+    height: 180px;
+    opacity: .5;
+}
+.standbox {
+    position: relative;
+    top: 71px;
+    font-size: 106px;
+    left: 140px;
+    width: 1112px;
+    height: 180px;
+    opacity: .5;
+}
+
+.furniturebox{
+    height: 12px;
+    width: 31px;
+    border: 1px solid black;
+    background: red;
+}
+
+.formbox{
+    background-color: rgba(223, 162, 89, 0.1);
+    border:1px solid #DFA259;
+    border-radius: 8px;
+}
+
+.sale{
+    position: absolute;
+    width: 138px;
+    top: 80px;
+    left: 608px;
+    z-index: 99;
+    background-color: #D04848;   
+}
+
+.sm-sale{
+    position: absolute;
+    width: 71px;
+    left: 196px;
+    z-index: 99;
+    background-color: #D04848; 
+}
+
+.product{
+    position: relative;
+    /* left: 28px; */
+}
+
+.our {
+    font-size: 40px;
+    position: relative;
+    bottom: 40px;
+}
+
+.py-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-140 {
+    padding-bottom: 140px;
+}
+
+
+.award {
+    position: relative;
+    font-size: 13px;
+    top: 72px;
+}
+
+.btn-sm {
+    /* width: 250px;
+    height: 78px; */
+    padding: 18px;
+    background-color: white;
+    border: 2px solid #DFA259;
+
+}
+
+.month{
+    position: relative;
+    font-size: 50px;
+    bottom: 34px;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width:768px) {
+    .arrange {
+        font-size: 11px;
+    }
+
+    .product{
+        position: relative;
+    left: 100px;
+    width: 257px;
+    }
+
+    .sale{
+        position: absolute;
+        width: 138px;
+        top: 80px;
+        left: 562px;
+        z-index: 99;
+        /* background-color: #D04848;    */
+    }
+
+    .sm-sale{
+        position: absolute;
+        width: 71px;
+        left: 234px;
+        z-index: 99;
+        background-color: #D04848; 
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width:1000px) {
+    .orderbox {
+        position: relative;
+        top: 86px;
+        font-size: 92px;
+        left: 90px;
+        width: 896px;
+        height: 180px;
+        opacity: .5;
+    }
+    .standbox {
+        position: relative;
+        top: 97px;
+        font-size: 82px;
+        left: 90px;
+        width: 896px;
+        height: 180px;
+        opacity: .5;
+    }
+
+    .sale{
+        position: absolute;
+        width: 138px;
+        top: 80px;
+        left: 433px;
+        z-index: 99;
+       
+    }
+
+    .sm-sale{
+        position: absolute;
+        width: 71px;
+        left: 294px;
+        z-index: 99;
+        background-color: #D04848; 
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width:755px) {
+
+    /* for menu */
+    .block {
+        position: absolute;
+        left: 72px;
+        top: 185px;
+    }
+
+    .abox {
+        font-size: 96px;
+        left: 90px;
+        top: 60px;
+        height: 160px;
+    }
+
+    .myabox {
+        font-size: 96px;
+        left: 90px;
+        top: 60px;
+        width: 665px;
+        height: 160px;
+    }
+
+    .orderbox {
+        font-size: 69px;
+        left: 87px;
+        top: 91px;
+        width: 607px;
+        height: 160px;
+    }
+
+    .standbox {
+        font-size: 59px;
+    left: 82px;
+    top: 100px;
+    width: 629px;
+    height: 160px 
+    }
+
+    .product{
+        position: relative;
+    left: 43px;
+    width: 257px;
+    }
+}
+
+@media only screen and (max-width: 756px) and (min-width:700px) {
+
+    /* for menu */
+    .block {
+        position: absolute;
+        left: 60px;
+        top: 185px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width:420px) {
+
+    /* for menu */
+    .block {
+        position: absolute;
+        left: 99px;
+        top: 185px;
+    }
+
+    .abox {
+        font-size: 45px;
+        top: 57px;
+        left: 64px;
+        width: 231px;
+        height: 103px;
+    }
+
+    .myabox {
+        font-size: 40px;
+        top: 62px;
+        left: 58px;
+        width: 308px;
+        height: 103px;
+    }
+
+    .orderbox {
+        font-size: 37px;
+        top: 65px;
+        left: 43px;
+        width: 322px;
+        height: 103px;
+    }
+
+    .standbox {
+        font-size: 35px;
+    top: 65px;
+    left: 43px;
+    width: 368px;
+    height: 103px
+    }
+
+    .arrange {
+        font-size: 11px;
+    }
+
+    .few {
+        font-size: 50px;
+    }
+
+    .our {
+        font-size: 25px;
+        bottom: 30px;
+    }
+}
+    @media only screen and (max-width: 500px) and (min-width:270px) {
+
+        /* for line */
+        .logo {
+            width: 103px;
+            height: 22px;
+        }
+
+        .product
+        {
+            position: relative;
+    left: 63px;
+    width: 251px;
+        }
+
+
+        .sale{
+            position: absolute;
+            width: 138px;
+            top: 80px;
+            left: 254px;
+            z-index: 99;
+           
+        }
+
+        .sm-sale{
+            position: absolute;
+            width: 71px;
+            left: 256px;
+            z-index: 99;
+            background-color: #D04848; 
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .small,
+    .big {
+        width: 255px;
+    }
+
+    .small {
+        height: 288px;
+    }
+
+    .big {
+        height: 378px;
+    }
+
+    .aaa {
+        height: 730px;
+    }
+
+    .iii {
+        height: 186px;
+    }

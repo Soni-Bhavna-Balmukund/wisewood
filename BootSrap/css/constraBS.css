@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Dancing+Script:wght@500;700&family=Lobster&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+@media (min-width:950px) and (max-width:1400px) {
+    .banner-title {
+        font-size: 54px;
+    }
+
+    .img-84 {
+        width: 84px;
+        height: 84px;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 950px) {
+
+    .banner-title {
+        font-size: 48px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .img-84 {
+        width: 40px !important; 
+        height: 40px !important; 
+    }
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+
+    .banner-title {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 50px) and (max-width: 450px) {
+
+    .banner-title {
+        font-size: 30px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-head1 {
+    background-color: #ebebeb;
+}
+
+.bg-price{
+    background-color: #f9f9f9;
+}
+
+.font-open {
+    /* font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.font-mon {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-t8 {
+    padding: 8px 0px 8px 0px;
+}
+
+
+.social-a {
+    color: #23282d;
+    margin-right: 24px;
+    font-size: 16px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-44 {
+    font-size: 44px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.line-26 {
+    line-height: 26px;
+}
+
+.text-21 {
+    color: #212529;
+    ;
+}
+
+.text-111 {
+    color: #111;
+}
+
+.text-555 {
+    color: #555;
+}
+
+.text-999 {
+    color: #999;
+}
+
+.text-yellow {
+    color: #ffb600;
+}
+
+.bg-yellow {
+    background-color: #ffb600;
+}
+
+.bg-foot {
+    background-color: #0d0d0d;
+}
+
+.bg-nav {
+    background-color: #23282d;
+    ;
+}
+
+.py-30 {
+    padding: 30px 0px 30px 0px;
+}
+
+.px-30 {
+    padding: 0px 30px 0px 30px;
+}
+
+.py-70 {
+    padding: 70px 0px 70px 0px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.pe30 {
+    padding-right: 30px;
+}
+
+.m70-left {
+    margin-left: 70px;
+}
+
+.ptop {
+    position: relative !important;
+    top: -50px !important;
+}
+
+.topb-50 {
+    position: absolute;
+    top: 50px;
+}
+
+.start-90 {
+    left: 90px;
+}
+
+a:hover {
+    color: #ffb600;
+    transition: all .3s ease-in-out;
+}
+
+.abox {
+    text-decoration: none;
+}
+
+.abox:hover {
+    color: white;
+    background-color: #ffb600;
+}
+
+.hr {
+    border-bottom: 3px solid #ffb600;
+}
+
+.border-left {
+    border-left: 3px solid #ffb600;
+    margin-right: 12px;
+}
+
+.border-bot {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    /* padding: 8px 0; */
+
+}
+
+.f-a:hover {
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.cmbtn:hover{
+    background-color: #111;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.banner-title {
+    font-size: 54px;
+}
+
+.gray {
+    filter: grayscale(1);
+}
+
+/* Extra */
+
+.cimg {
+    width: 90px;
+    height: 40px;
+}
+
+.p-25 {
+    padding: 25px;
+}
+
+.padding-b {
+    padding: 3px 15px;
+}
+
+.pbanner {
+    height: 300px;
+    background-image: url('../img/pbanner1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.border-leftside {
+    border-left: 3px solid #ffb600;
+    margin-right: 15px;
+    height: 25px;
+}
+
+.img-90 {
+    width: 90px;
+    height: 70px;
+}
+
+.img-84 {
+    width: 84px;
+    height: 84px;
+}
+
+.form-control {
+    box-shadow: none;
+    border: 1px solid #dadada;
+    padding: 5px 20px;
+    /* height: 44px; */
+    height: auto;
+    background: none;
+    color: #959595;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.s-text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 5px 20px;
+}
+
+.mtb-70{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.teambox{
+    position: absolute;
+    top: 76%;
+    width: 262px;
+    height: 100%;
+    padding: 15px 25px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 0%;
+    transition: .3s ease-in-out;
+   
+}
+
+.teambox2{
+    width: 262px;
+    height: 100%;
+}
+
+.teambox:hover{
+    top: 0%;
+}
+
+.img-fluid{
+    height: auto;
+    width: 100%;
+}

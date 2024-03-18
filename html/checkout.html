@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Wisewood A Furniture website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Website</title>
+    <link rel="stylesheet" href="../css/project.css">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
+        integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-white">
+    <script src="../js/bootstrap.bundle.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <header class="container-fluid fixed-top bg-white" data-aos="fade-down">
+        <!-- <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="700"> -->
+
+        <nav class="container ">
+            <!-- raw start -->
+            <div class="row inter-text align-items-center py-3">
+
+                <div class="col-xl-3 col-lg-2 col-6"><a href="#"><img src="../images//wisewood.jpg" class="logo "
+                            alt="WISEWOOD"></a></div>
+
+                <div class="col-xl-5 col-md-6 d-lg-block d-none">
+                    <ul class="d-flex mb-0 justify-content-center">
+                        <li><a href="">Home</a></li>
+
+                        <li class="submenu"><a href="">Shop</a>
+                            <ul class="box">
+
+                                <li><a href="customizedProduct.html">Customized Product</a></li>
+                                <li><a href="standard.html">Standard Product</a></li>
+                                <li><a href="groupedProduct.html">Grouped Product</a></li>
+                                <li><a href="virtualProduct.html">Virtual Product</a></li>
+                                <li><a href="variableProduct.html">Variable Product</a></li>
+                                <li><a href="onsaleProduct.html">OnSale Product</a></li>
+                                <li><a href="outOfStock.html">Out Of Stock Product</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="blog.html">Blog</a></li>
+
+                        <li class="submenu"><a href="">Pages</a>
+                            <ul class="box">
+                                <li><a href="aboutus.html">About US</a></li>
+                                <li><a href="pricingPlan.html">Pricing Plans</a></li>
+                                <li><a href="myAccount.html">My Account</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="orderTracking.html">Order Tracking</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                                <li><a href="faq.html">Faq Page</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="contactus.html">Contact Us</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="col-xl-4 col-md-4 col-5 justify-content-end d-lg-block d-none ">
+                    <ul class="d-flex mb-0 float-r">
+                        <li><a href="cart.html">Cart/0</a></li>
+                        <li><a><i class="fa-regular fa-heart black"></a></i></li>
+                        <li><i class="fa-solid fa-magnifying-glass black"></i></li>
+                        <li><i class="las la-grip-lines" style="font-size: 30px;"></i></li>
+                    </ul>
+                </div>
+
+                <div class="d-lg-none d-block col-lg-1 col-6  ">
+                    <div class="align-items-center float-r">
+                        <a href="cart.html">Cart/0</a>
+
+                        <i class="las la-grip-lines " style="font-size: 30px; float: right; padding-right:30px ;"></i>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- </div> -->
+    </header>
+
+    <section data-aos="fade-down" data-aos-duration="1500">
+        <div class="container-fluid">
+            <div class="orderbox">
+                <p class=" gray inter-text text-uppercase">Checkout</p>
+            </div>
+
+
+            <div><img src="../images/order.jpg" class="img-fluid  position-relative z-3" alt="checkout"></div>
+        </div>
+    </section>
+
+    <section class="py-70" data-aos="zoom-in-up" data-aos-duration="1500">
+        <div class="container-fluid">
+            <div class="container">
+
+                <div class="formbox w-100 mt-5 mb-4">
+                    <div class="py-2 d-flex ">
+                        <img src="../images/info 1.jpg" alt="info image" class="ps-3 "
+                            style="height: 28px; width: 44px;">
+
+                        <div class="fs-12 py-1 ps-1 black fw-bolder">Returning customer? Click here to login</div>
+                    </div>
+                </div>
+
+                <div class="ps-440 ">
+                    <form action="loginlhtml">
+
+                        <p class="w-50 gray ">If you have shopped with us before, please enter your details below. If
+                            you are a new customer, please proceed to the Billing section.</p>
+
+                        <label for="em" class="mb-2 text-"><b>Username or Email*</b></label><br>
+
+                        <input type="email" name="email" id="em" placeholder="Email you used during checkout"
+                            class="loginbox w-50" required> <br>
+
+                        <label for="pswd" class="mb-2"><b>Password*</b></label><br>
+                        <input type="text" name="pswd" id="o_id" placeholder="Found in your order conformation email. "
+                            class="loginbox w-50" required> <br>
+
+
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember" class="mb-2">Remember me</label><br>
+
+                        <div class="w-50">
+                            <input type="submit" value="LOGIN" class="loginbtn bg-black text-white"
+                                style="border-color: black; width: 98px;">
+                            <a href="forgetpassword.html" class="a black float-r"><u>Lost your password ?</u></a>
+                            <div class="float-none"></div>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="formbox w-100 mt-5 mb-4">
+                    <div class="py-2 d-flex ">
+                        <img src="../images/info 1.jpg" alt="info image" class="ps-3 "
+                            style="height: 28px; width: 44px;">
+
+                        <div class="fs-12 py-1 ps-1 black fw-bolder">Have a coupon? Click here to enter your code</div>
+                    </div>
+                </div>
+
+                <div class="ps-440">
+                    <p class="w-50 gray ">If you have a coupon code, please apply it below.</p>
+                    <div class="d-flex">
+                        <input type="text" name="coupon" placeholder="Coupon code " class="loginbox w-25 me-2" required>
+                        <div class="w-25 ">
+                            <input type="submit" value=" APPLY COUPON " class="loginbtn bg-black text-white py-3"
+                                style="border-color: black;">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row inter-text">
+                        <div class="col-8 fs-14">
+                            <div>
+                                <div class="fw-bold ">BILLING DETAILS</div>
+                                <form action="placeorder.html" method="post">
+                                    <div>
+                                        <div>
+                                            <div class=" d-flex fs-13 black">
+                                                <div class="col-6 me-3">
+                                                    <label for="fn">First Name <span
+                                                            style="color: red;">*</span></label> <br>
+                                                    <input type="text" id="fn" class="loginbtn py-3 border-dark"
+                                                        style="width: 408px;">
+                                                </div>
+                                                <div class="col-6">
+                                                    <label for="ln">Last Name<span style="color: red;">*</span></label>
+                                                    <br>
+                                                    <input type="text" id="ln" class="loginbtn py-3 border-dark"
+                                                        style="width: 408px;">
+                                                </div>
+                                            </div>
+                                            <div class="pb-5">
+                                                <div class="col-12">
+                                                    <label for="cn">Company name (Optional)</label> <br>
+                                                    <input type="text" id="cn" class="loginbtn w-100  py-3 border-dark">
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <label for="cn">Contry/Region<span
+                                                            style="color: red;">*</span></label> <br>
+                                                    <input type="text" id="cn" placeholder="India"
+                                                        class="loginbtn w-100  py-3 px-3 fs-19 border-dark">
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <label for="cn">Street Address<span
+                                                            style="color: red;">*</span></label> <br>
+                                                    <input type="text" id="cn"
+                                                        placeholder="House number and street name"
+                                                        class="loginbtn w-100  py-3 px-3 border-dark">
+                                                    <input type="text" id="cn"
+                                                        placeholder="Apartment, suits, unit, etc. (optional)"
+                                                        class="loginbtn w-100  py-3 px-3 border-dark">
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <label for="tn">Town/City<span style="color: red;">*</span></label>
+                                                    <br>
+                                                    <input type="text" id="tn" class="loginbtn w-100  py-3 border-dark">
+
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <label for="sn">State<span style="color: red;">*</span></label> <br>
+                                                    <input type="text" id="sn" class="loginbtn w-100  py-3 border-dark">
+
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <label for="zp">ZIP Code<span style="color: red;">*</span></label>
+                                                    <br>
+                                                    <input type="text" id="zp" class="loginbtn w-100  py-3 border-dark">
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <label for="ph">Phone<span style="color: red;">*</span></label> <br>
+                                                    <input type="text" id="ph" class="loginbtn w-100  py-3 border-dark">
+                                                </div>
+
+                                                <div class="col-12 pb-3">
+                                                    <label for="em">Email Address<span
+                                                            style="color: red;">*</span></label> <br>
+                                                    <input type="text" id="em" class="loginbtn w-100  py-3 border-dark">
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <input type="checkbox" id="ck">
+                                                    <label for="ck">Create an account?<span
+                                                            style="color: red;">*</span></label>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div>
+                                        <div class="fw-bold pb-3">ADDITIONAL INFORMATION</div>
+                                                <label for="order" class="fs-12">Order notes (optional)</label>
+                                                <input type="text" id="em" placeholder="Notes about your order, Eg. special notes for delivery." class="loginbtn w-100  py-4 px-3 border-dark">
+
+                                            </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-4 inter-text">
+                            <div class="px-4">
+                                <div>
+                                    <div class="fw-bold pb-3">YOUR ORDER</div>
+                                    <div class="px-3 fs-13 fw-bolder text-uppercase d-flex justify-content-between py-4" style="background-color: #D9D9D9;">
+                                        <div >Product</div>
+                                        <div>Subtoltal</div>
+                                    </div>
+
+                                    <div class="px-3 fs-13 fw-bolder text-uppercase d-flex justify-content-between py-4 bg-white" >
+                                        <div >--------</div>
+                                        <div>Rs. 0000</div>
+                                    </div>
+
+                                    <div class="px-3 fs-13 fw-bolder text-uppercase d-flex justify-content-between py-4" style="background-color:#F0F0F0">
+                                        <div >Subtoltal</div>
+                                        <div>Rs. 0000</div>
+                                    </div>
+
+                                    <div class="px-3 fs-13 fw-bolder text-uppercase d-flex justify-content-between py-4" style="background-color: #D9D9D9;">
+                                        <div >Total</div>
+                                        <div>Rs. 0000</div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="payment" id="p1">
+                                    <label for="p1" class="gray2 pt-4 font-15   ">DIRECT BANK TRANSFER</label>
+
+                                    <p class="gray2 py-3 fs-12 ps-4">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+
+                                    <hr class="gray2">
+
+                                    <input type="radio" name="payment" id="p2">
+                                    <label for="p2" class="gray2 pt-2">CHECK PAYMENTS
+                                    </label>
+
+                                    <hr class="gray2">
+
+                                    <input type="radio" name="payment" id="p2">
+                                    <label for="p2" class="gray2 pt-2">CASH ON DELIVERY </label>
+
+                                    <p class="gray2 py-3 fs-12 ps-4">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+
+                                    <input type="submit" value=" PLACE ORDER " class="loginbtn bg-black text-white py-3"
+                                style="border-color: black;">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-black text-white inter-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+        data-aos-duration="3000">
+        <div class="container-fluid ">
+            <div class="container py-5">
+                <div class="row py-5">
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div>
+                            <h3 class="text-white fst-italic">WISEWOOD</h3>
+                        </div>
+                        <div class="text-uppercase fst-italic" style="font-size: 30px; font-weight: 300;">20%
+                            Discount
+                            for new subscribers </div>
+                        <div>
+                            <form action="" style="position: relative;" class="py-3">
+                                <!-- <label for="em"></label> -->
+                                <input type="email" name="email" id="em" placeholder="Enter Your Email Here"
+                                    style="font-size: 10px; width: 230px;height: 40px; padding: 12px;">
+                                <button type="submit" class="light-brown border-0 btn-sub">Subscribe</button>
+                            </form>
+                        </div>
+                        <div style="font-size: 12px;">***We are not gonna save your data</div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-lg-0 mt-5">
+                        <div class="text-center ">
+                            <p class="text-white fst-italic" style="font-size: 24px; font-weight: 300;">OTHER
+                                PAGES</p>
+                            <div class="text-start d-flex justify-content-around">
+                                <ul>
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Category</a></li>
+                                    <li><a href="">Pages</a></li>
+                                    <li><a href="">Contact</a></li>
+                                    <li><a href="">Pricing</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">Our Team</a></li>
+                                    <li><a href="">Category</a></li>
+                                    <li><a href="">Refund Policy</a></li>
+                                    <li><a href="">Shop</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-lg-0 mt-5">
+                        <div class="text-center">
+                            <p class="text-white fw-300 fst-italic" style="font-size: 24px;font-weight: 300;">
+                                SUPPORT
+                            </p>
+                        </div>
+
+                        <div class="text-start d-flex justify-content-around">
+                            <ul>
+                                <li><a href="">Contact US</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="">Pages</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Privac Policy</a></li>
+                            </ul>
+
+                            <ul>
+                                <li><a href="">Delivery</a></li>
+                                <li><a href="">Tracking</a></li>
+                                <li><a href="">Bills</a></li>
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 text-center mt-lg-0 mt-5">
+                        <div>
+                            <p class="text-white fw-300 fst-italic" style="font-size: 24px;font-weight: 300;">
+                                Social
+                                Media</p>
+                        </div>
+                        <ul class="p-0">
+                            <li><a href="https://www.instagram.com/ " target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/ " target="_blank">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank">Tweeter</a></li>
+                            <li><a href="https://in.linkedin.com/" target="_blank">LinkedIn</a></li>
+                            <li><a href="faq.html" target="_blank">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
