@@ -114,6 +114,9 @@
     margin-left: 64px;
 }
 
+.ms-35 {
+    margin-left: 35px;
+}
 .ps-440{
     padding-left: 440px;
 }
@@ -206,7 +209,7 @@ footer div a {
 
 
 /* hover */
-.sm {
+.sm1 {
     background-size: 270px;
     height: 176px;
     background-position: center;
@@ -586,6 +589,12 @@ nav ul li ul li a {
     }
 
 
+    @media only screen and (max-width: 400px) and (min-width:310px) {
+
+        .colec{
+            margin-left: 35px;
+        }
+    }
 
 
 
