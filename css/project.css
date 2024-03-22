@@ -227,8 +227,8 @@ footer div a {
 
 
 
-.sm:hover .block,
-.sm:hover .block2 {
+.sm1:hover .block,
+.sm1:hover .block2 {
     display: block;
     z-index: 999;
     transform: translatey(-165px);
@@ -250,6 +250,22 @@ footer div a {
 }
 
 .submenu:hover .box {
+    display: block;
+}
+
+.sbox{
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.serchbox{
+    position: absolute;
+
+    width: 317px;
+    height: 43px;
+    background-color: #0000008e;
+}
+.sbox:hover .serchbox{
     display: block;
 }
 
@@ -378,6 +394,7 @@ nav ul li ul li a {
 .colec{
     width: 250px;
 }
+
 
 
 @media only screen and (max-width: 1024px) and (min-width:768px) {
