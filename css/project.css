@@ -218,11 +218,12 @@ footer div a {
 }
 
 .block {
-    position: absolute;
-    left: 47px;
-    top: 185px;
+    
     width: 237px;
     transition: all 2s;
+    margin: auto;
+    transform: translate(0px,170px);
+    
 }
 
 
@@ -231,7 +232,7 @@ footer div a {
 .sm1:hover .block2 {
     display: block;
     z-index: 999;
-    transform: translatey(-165px);
+    transform: translatey(19px);
 }
 
 .submenu {
@@ -477,11 +478,11 @@ nav ul li ul li a {
 @media only screen and (max-width: 992px) and (min-width:755px) {
 
     /* for menu */
-    .block {
+    /* .block {
         position: absolute;
         left: 72px;
         top: 185px;
-    }
+    } */
 
     .abox {
         font-size: 96px;
@@ -524,21 +525,21 @@ nav ul li ul li a {
 @media only screen and (max-width: 756px) and (min-width:700px) {
 
     /* for menu */
-    .block {
+    /* .block {
         position: absolute;
         left: 60px;
         top: 185px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 600px) and (min-width:420px) {
 
     /* for menu */
-    .block {
+    /* .block {
         position: absolute;
         left: 99px;
         top: 185px;
-    }
+    } */
 
     .abox {
         font-size: 45px;
