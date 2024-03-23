@@ -228,8 +228,7 @@ footer div a {
 
 
 
-.sm1:hover .block,
-.sm1:hover .block2 {
+.sm1:hover .block {
     display: block;
     z-index: 999;
     transform: translatey(19px);
@@ -256,14 +255,16 @@ footer div a {
 
 .sbox{
     position: relative;
-    /* overflow: hidden; */
 }
 
 .serchbox{
+    display: none;
     position: absolute;
-
-    width: 317px;
+    top: 29px;
+    left: -41px;
+    width: 252px;
     height: 43px;
+    z-index: 99;
     background-color: #0000008e;
 }
 .sbox:hover .serchbox{
