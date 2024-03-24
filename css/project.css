@@ -21,7 +21,7 @@
     margin: auto;
 }
 
-.w-250{
+.w-250 {
     width: 250px;
 }
 
@@ -58,12 +58,12 @@
     color: #50371D;
 }
 
-.gray2{
+.gray2 {
     color: #8B8B8B;
 }
 
-.bg-gray{
-    background-color:#F2F2F2;
+.bg-gray {
+    background-color: #F2F2F2;
 }
 
 
@@ -76,7 +76,7 @@
     font-size: 13px;
 }
 
-.fs-14{
+.fs-14 {
     font-size: 14px;
 }
 
@@ -117,7 +117,8 @@
 .ms-35 {
     margin-left: 35px;
 }
-.ps-440{
+
+.ps-440 {
     padding-left: 440px;
 }
 
@@ -218,12 +219,12 @@ footer div a {
 }
 
 .block {
-    
+
     width: 237px;
     transition: all 2s;
     margin: auto;
-    transform: translate(0px,170px);
-    
+    transform: translate(0px, 170px);
+
 }
 
 
@@ -253,11 +254,11 @@ footer div a {
     display: block;
 }
 
-.sbox{
+.sbox {
     position: relative;
 }
 
-.serchbox{
+.serchbox {
     display: none;
     position: absolute;
     top: 29px;
@@ -267,7 +268,8 @@ footer div a {
     z-index: 99;
     background-color: #0000008e;
 }
-.sbox:hover .serchbox{
+
+.sbox:hover .serchbox {
     display: block;
 }
 
@@ -307,6 +309,7 @@ nav ul li ul li a {
     height: 180px;
     opacity: .5;
 }
+
 .standbox {
     position: relative;
     top: 71px;
@@ -317,40 +320,48 @@ nav ul li ul li a {
     opacity: .5;
 }
 
-.furniturebox{
+.furniturebox {
     height: 12px;
     width: 31px;
     border: 1px solid black;
     background: red;
 }
 
-.formbox{
+.furniturebox2 {
+    height: 12px;
+    width: 20px;
+    border: 1px solid black;
+    background: red;
+}
+
+.furniturebox2:hover {
+    scale: 1.5;
+}
+
+.formbox {
     background-color: rgba(223, 162, 89, 0.1);
-    border:1px solid #DFA259;
+    border: 1px solid #DFA259;
     border-radius: 8px;
 }
 
-.sale{
+.sale {
     position: absolute;
     width: 138px;
     top: 80px;
     left: 608px;
     z-index: 99;
-    background-color: #D04848;   
+    background-color: #D04848;
 }
 
-.sm-sale{
+.sm-sale {
     position: absolute;
     width: 71px;
     left: 196px;
     z-index: 99;
-    background-color: #D04848; 
+    background-color: #D04848;
 }
 
-.product{
-    position: relative;
-    /* left: 28px; */
-}
+
 
 .our {
     font-size: 40px;
@@ -387,13 +398,13 @@ nav ul li ul li a {
 
 }
 
-.month{
+.month {
     position: relative;
     font-size: 50px;
     bottom: 34px;
 }
 
-.colec{
+.colec {
     width: 250px;
 }
 
@@ -404,13 +415,7 @@ nav ul li ul li a {
         font-size: 11px;
     }
 
-    .product{
-        position: relative;
-    left: 100px;
-    width: 257px;
-    }
-
-    .sale{
+    .sale {
         position: absolute;
         width: 138px;
         top: 80px;
@@ -419,23 +424,23 @@ nav ul li ul li a {
         /* background-color: #D04848;    */
     }
 
-    .sm-sale{
+    .sm-sale {
         position: absolute;
         width: 71px;
         left: 234px;
         z-index: 99;
-        background-color: #D04848; 
+        background-color: #D04848;
     }
 
-    .colec{
+    .colec {
         width: 216px;
     }
 }
 
 @media only screen and (max-width: 1300px) and (min-width:1000px) {
-.colec{
-    width: 220px;
-}
+    .colec {
+        width: 220px;
+    }
 }
 
 @media only screen and (max-width: 1300px) and (min-width:1000px) {
@@ -448,6 +453,7 @@ nav ul li ul li a {
         height: 180px;
         opacity: .5;
     }
+
     .standbox {
         position: relative;
         top: 97px;
@@ -458,21 +464,21 @@ nav ul li ul li a {
         opacity: .5;
     }
 
-    .sale{
+    .sale {
         position: absolute;
         width: 138px;
         top: 80px;
         left: 433px;
         z-index: 99;
-       
+
     }
 
-    .sm-sale{
+    .sm-sale {
         position: absolute;
         width: 71px;
         left: 294px;
         z-index: 99;
-        background-color: #D04848; 
+        background-color: #D04848;
     }
 }
 
@@ -510,17 +516,12 @@ nav ul li ul li a {
 
     .standbox {
         font-size: 59px;
-    left: 82px;
-    top: 100px;
-    width: 629px;
-    height: 160px 
+        left: 82px;
+        top: 100px;
+        width: 629px;
+        height: 160px
     }
 
-    .product{
-        position: relative;
-    left: 43px;
-    width: 257px;
-    }
 }
 
 @media only screen and (max-width: 756px) and (min-width:700px) {
@@ -568,10 +569,10 @@ nav ul li ul li a {
 
     .standbox {
         font-size: 35px;
-    top: 65px;
-    left: 43px;
-    width: 368px;
-    height: 103px
+        top: 65px;
+        left: 43px;
+        width: 368px;
+        height: 103px
     }
 
     .arrange {
@@ -587,85 +588,136 @@ nav ul li ul li a {
         bottom: 30px;
     }
 }
-    @media only screen and (max-width: 500px) and (min-width:270px) {
 
-        /* for line */
-        .logo {
-            width: 103px;
-            height: 22px;
-        }
+@media only screen and (max-width: 500px) and (min-width:270px) {
 
-        .product
-        {
-            position: relative;
-    left: 63px;
-    width: 251px;
-        }
-
-
-        .sale{
-            position: absolute;
-            width: 138px;
-            top: 80px;
-            left: 254px;
-            z-index: 99;
-           
-        }
-
-        .sm-sale{
-            position: absolute;
-            width: 71px;
-            left: 256px;
-            z-index: 99;
-            background-color: #D04848; 
-        }
+    /* for line */
+    .logo {
+        width: 103px;
+        height: 22px;
     }
 
+    .sale {
+        position: absolute;
+        width: 138px;
+        top: 80px;
+        left: 254px;
+        z-index: 99;
 
-  
+    }
 
+    .sm-sale {
+        position: absolute;
+        width: 71px;
+        left: 256px;
+        z-index: 99;
+        background-color: #D04848;
+    }
+}
 
+@media only screen and (max-width: 400px) and (min-width:360px) {
+    .standbox {
+        position: relative;
+        top: 39px;
+        font-size: 33px;
+        left: 5px;
+        width: 361px;
+        height: 72px;
+        opacity: .5;
+    }
 
+    .sm-sale {
+        position: absolute;
+        width: 71px;
+        left: 231px;
+        z-index: 99;
+        background-color: #D04848;
+    }
 
+    .sale {
+        position: absolute;
+        width: 138px;
+        top: 80px;
+        left: 204px;
+        z-index: 99
+    }
 
+    .orderbox {
+        position: relative;
+        top: 71px;
+        font-size: 35px;
+        left: 20px;
+        width: 331px;
+        height: 108px;
+        opacity: .5;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .small,
-    .big {
+    .abox {
+        position: relative;
+        top: 69px;
+        font-size: 44px;
+        left: 46px;
         width: 255px;
+        height: 114px;
+        opacity: .5;
     }
 
-    .small {
-        height: 288px;
+    .myabox {
+        position: relative;
+        top: 69px;
+        font-size: 40px;
+        left: 47px;
+        width: 291px;
+        height: 112px;
+        opacity: .5;
     }
+}
 
-    .big {
-        height: 378px;
-    }
 
-    .aaa {
-        height: 730px;
-    }
 
-    .iii {
-        height: 186px;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.small,
+.big {
+    width: 255px;
+}
+
+.small {
+    height: 288px;
+}
+
+.big {
+    height: 378px;
+}
+
+.aaa {
+    height: 730px;
+}
+
+.iii {
+    height: 186px;
+}
