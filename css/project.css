@@ -58,6 +58,10 @@
     color: #50371D;
 }
 
+.lightOrange{
+    color:  #DFA259;
+}
+
 .gray2 {
     color: #8B8B8B;
 }
@@ -320,6 +324,16 @@ nav ul li ul li a {
     opacity: .5;
 }
 
+.classicalbox {
+    position: relative;
+    top: 71px;
+    font-size: 106px;
+    left: 140px;
+    width: 1136px;
+    height: 180px;
+    opacity: .5;
+}
+
 .furniturebox {
     height: 12px;
     width: 31px;
@@ -342,6 +356,34 @@ nav ul li ul li a {
     background-color: rgba(223, 162, 89, 0.1);
     border: 1px solid #DFA259;
     border-radius: 8px;
+}
+
+.inpmsg{
+    background-color: transparent;
+    border:1px solid #DFA259;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.custimg{
+    position: relative;
+    width: 430px;
+    height: 430px;
+    z-index: 999;
+}
+
+.custbox{
+    position: absolute;
+    top: 112px;
+    left: 388px;
+    width: 999px;
+    height: 300px;
+    background-color: #FFF4E6;
+}
+.contactbox{
+    width: 250px;
+    border-radius: 16px;
+    background-color: #50371d83;
 }
 
 .sale {
@@ -376,6 +418,10 @@ nav ul li ul li a {
 
 .pb-70 {
     padding-bottom: 70px;
+}
+
+.pt-70 {
+    padding-top: 70px;
 }
 
 .pb-140 {
@@ -463,6 +509,16 @@ nav ul li ul li a {
         height: 180px;
         opacity: .5;
     }
+    .classicalbox {
+        position: relative;
+        top: 97px;
+        font-size: 82px;
+        left: 90px;
+        width: 896px;
+        height: 180px;
+        opacity: .5;
+    }
+
 
     .sale {
         position: absolute;
@@ -522,6 +578,14 @@ nav ul li ul li a {
         height: 160px
     }
 
+    .classicalbox {
+        font-size: 59px;
+        left: 82px;
+        top: 100px;
+        width: 630px;
+        height: 160px
+    }
+
 }
 
 @media only screen and (max-width: 756px) and (min-width:700px) {
@@ -575,6 +639,14 @@ nav ul li ul li a {
         height: 103px
     }
 
+    .classicalbox {
+        font-size: 33px;
+        top: 65px;
+        left: 43px;
+        width: 368px;
+        height: 103px
+    }
+
     .arrange {
         font-size: 11px;
     }
@@ -617,6 +689,16 @@ nav ul li ul li a {
 
 @media only screen and (max-width: 400px) and (min-width:360px) {
     .standbox {
+        position: relative;
+        top: 39px;
+        font-size: 33px;
+        left: 5px;
+        width: 361px;
+        height: 72px;
+        opacity: .5;
+    }
+
+    .classicalbox {
         position: relative;
         top: 39px;
         font-size: 33px;
